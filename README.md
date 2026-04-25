@@ -14,6 +14,7 @@ Paste any article, blog post, or notes — select an output format — get repur
 
 ## Project Structure
 
+```
 ai-content-repurposer/
 ├── src/
 │   ├── logger.py       # Centralized logging
@@ -28,6 +29,7 @@ ai-content-repurposer/
 ├── app.py              # Gradio UI
 ├── config.py           # All constants and settings
 └── .env                # API keys (never committed)
+```
 
 ## Setup
 
@@ -76,4 +78,4 @@ Uses `llama-3.1-8b-instant` via Groq API — fast, free, and accurate for text g
 
 ## Author
 
-Vedant Nagarkar — [GitHub](https://github.com/Vedant-Nagarkar) · [LinkedIn](https://www.linkedin.com/in/vedant-nagarkar-a52415213/)
+Vedant Nagarkar — [GitHub](https://github.com/Vedant-Nagarkar) · [LinkedIn](https://www.linkedin.com/in/vedant-nagarkar/)
